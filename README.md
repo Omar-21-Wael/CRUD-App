@@ -8,6 +8,10 @@ A simple and clean CRUD (Create, Read, Update, Delete) web application built usi
 
 ![preview](preview.png)
 
+
+
+[CRUD App Live](https://omar-21-wael.github.io/CRUD-App/)
+
 ---
 
 ## 💡 Features
