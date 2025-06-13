@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="cruds">
+        <div id="head"><h1>crud</h1>
+        <p>create delete update</p>
+        </div>
+
+
+<div class="inputs">
+<input type="text" placeholder="title" id="title" >
+ <div class="price">
+<input type="number" onkeyup="gettotal()" placeholder="salary" id="salary" >
+<input type="number" onkeyup="gettotal()" placeholder="taxes" id="taxes">
+<input type="number" onkeyup="gettotal()" placeholder="ads" id="ads">
+<input type="number" onkeyup="gettotal()" placeholder="discount" id="discount">
+<small id="total"></small>
+
+</div>
+<input type="number"  placeholder="count" id="count">
+<input type="text" placeholder="category" id="category" >
+
+
+
+        </div>
+    <div class="outputs">
+
+<button id="sub">create</button>
+<input type="text" onkeyup="getsearch(this.value)" placeholder="search" id="search">
+
+    <div id="deleteall">
+        
+    </div>
+<table>
+    <tr>    
+        <th>id</th>
+    <th>title</th>
+    <th>salary</th>
+    <th>taxes</th>
+    <th>ads</th>
+    <th>discount</th>
+    <th>total</th>
+    <th>category</th>
+    <th>delete</th>
+    <th>update</th>
+</tr>
+
+
+  <tbody id="newpro">
+    
+
+</tbody>
+
+
+
+</table>
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="main1.js"></script>
+    
+</body>
+</html>

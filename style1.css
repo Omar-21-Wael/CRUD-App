@@ -1,0 +1,126 @@
+body{
+    background-color: darkgray;
+}
+
+#cruds{
+  width: 80%;
+  margin: auto;
+}
+#head{
+
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0%;
+
+}
+#head h1 {
+    padding: 2px;
+    font-size: 50px;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+
+
+
+}
+#head p {
+    padding: 0;
+    margin: 0;
+}
+.price{
+width: 100%;
+display: flex;
+margin: 5px 4px;
+
+
+
+}
+#title{
+    width: 100%;
+}
+small{
+    width: 60px;
+    background-color: rgb(185, 10, 10);
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 10px;
+    padding: 5px 9px;
+    color: bisque;
+    display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 6px;
+}
+.price input{
+width: 23%;
+}
+.inputs{
+    width: 100%;
+    
+}
+
+input{
+    color: white;
+    background-color: rgb(36, 36, 36);
+    height: 30px;
+    padding: 5px;
+    
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-transform:capitalize;
+    border: none;
+    margin: 4px 3px;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+
+
+}
+input:focus{
+    transform: scale(1.1);
+    background-color: dimgrey;
+    box-shadow: 3px 2px 9px  rgb(255, 0, 0) 
+}
+#count ,#category , #search{
+    width: 100%;
+}
+button{
+    color: white;
+    background-color: rgb(36, 36, 36);
+    height: 40px;
+    padding: 5px;
+    
+    text-align: center;
+    font-size: 15px;
+    text-transform:capitalize;
+    border: none;
+    margin: 4px 3px;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    width: 100%;
+
+}
+button:focus{
+    letter-spacing: 4px;
+    background-color: darkslategrey;
+
+}
+#total::before{
+    content: 'Total: ';
+}
+table{
+    
+width: 100%;
+margin:  10px 0;
+text-align: center;
+}
+th ,td{
+text-transform: capitalize;
+}
+#deleteall{
+margin: 3px;
+}
